@@ -39,9 +39,9 @@ printLineSeparator() {
 
 printSection() {
     # Prints a section using line separators.
-	#
+    #
     # Parameters:
-	# 1. Section name
+    # 1. Section name
     printLineSeparator
     echo "$1"
     printLineSeparator
