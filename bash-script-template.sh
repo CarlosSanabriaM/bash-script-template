@@ -12,7 +12,7 @@ CTE1="value"
 
 # ------------------------ FUNCTIONS --------------------------
 
-storeScriptParameters(){  # TODO: Añadir aqui el nombre de los parámetros que recibe el script
+storeScriptParameters() {  # TODO: Añadir aqui el nombre de los parámetros que recibe el script
     # Script parameters:
     # TODO: Explicar que hace este parámetro
     # 1. This param...
@@ -23,11 +23,11 @@ storeScriptParameters(){  # TODO: Añadir aqui el nombre de los parámetros que 
     # TODO: Añadir o eliminar parámetros
 }
 
-printHelp(){
-  # TODO: Explicar aqui cómo se invoca al script e información de ayuda adicional
-  echo "Use: $0 <todoRenameVariable1> <todoRenameVariable2>"
-  echo "    message"
-  echo "    message"
+printHelp() {
+    # TODO: Explicar aqui cómo se invoca al script e información de ayuda adicional
+    echo "Use: $0 <todoRenameVariable1> <todoRenameVariable2>"
+    echo "    message"
+    echo "    message"
 }
 
 # ------------------------------------------------------------
