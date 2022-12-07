@@ -80,7 +80,7 @@ source "$globalFunctionsScriptAbsolutePath"
 # --------------------------- MAIN ----------------------------
 
 # Store script parameters in variables with descriptive names
-storeScriptParameters $*
+storeScriptParameters "$@"
 
 # TODO: Añadir aquí el codigo main del script
 
