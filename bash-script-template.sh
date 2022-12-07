@@ -30,6 +30,23 @@ printHelp() {
     echo "    message"
 }
 
+printLineSeparator() {
+    # Prints a line separator using the "-" character.
+    # It prints as many "-" characters as needed to fill the current terminal session screen width.
+    cols=$(tput cols)
+    for ((i=0; i<cols; i++)); do printf "-"; done; echo
+}
+
+printSection() {
+    # Prints a section using line separators.
+	#
+    # Parameters:
+	# 1. Section name
+    printLineSeparator
+    echo "$1"
+    printLineSeparator
+}
+
 # ------------------------------------------------------------
 
 # -------------------- ARGUMENTS CHECKING --------------------
