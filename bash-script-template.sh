@@ -1,30 +1,33 @@
 #!/bin/bash
-# TODO: Explicar aquí qué hace el script
+# TODO: Explain here what the script does
+
+# Exit immediately if a command exits with a non-zero status
+set -e
 
 # ------------------------ CONSTANTS --------------------------
 
 # Number of args that must be specified when invoking this script
-NUM_ARGS=2  # TODO: Actualizar el número de argumentos del script
-# TODO: Añadir aquí las constantes que use el script
-CTE1="value"
+NUM_ARGS=2  # TODO: Update the number of arguments
+# TODO: Add the constants used by the script here
+EXAMPLE_CONSTANT_1="value"
 
 # -------------------------------------------------------------
 
 # ------------------------ FUNCTIONS --------------------------
 
-storeScriptParameters() {  # TODO: Añadir aqui el nombre de los parámetros que recibe el script
+storeScriptParameters() {  # TODO: Add here the name of the parameters that the script receives
     # Script parameters:
-    # TODO: Explicar que hace este parámetro
+    # TODO: Explain what this parameter does
     # 1. This param...
     todoRenameVariable1=$1
-    # TODO: Explicar que hace este parámetro
+    # TODO: Explain what this parameter does
     # 2. This param...
     todoRenameVariable2=$2
-    # TODO: Añadir o eliminar parámetros
+    # TODO: Add or remove parameters
 }
 
 printHelp() {
-    # TODO: Explicar aqui cómo se invoca al script e información de ayuda adicional
+    # TODO: Explain here how to invoke the script and additional help information
     echo "Use: $0 <todoRenameVariable1> <todoRenameVariable2>"
     echo "    message"
     echo "    message"
@@ -82,6 +85,6 @@ source "$globalFunctionsScriptAbsolutePath"
 # Store script parameters in variables with descriptive names
 storeScriptParameters "$@"
 
-# TODO: Añadir aquí el codigo main del script
+# TODO: Add the main code of the script here
 
 # -------------------------------------------------------------
